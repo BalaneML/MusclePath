@@ -249,7 +249,6 @@ struct MapView: View {
 }
 
 // MARK: - Preview
-
 #Preview {
     MapView()
 }
