@@ -6,41 +6,46 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		BF93F4B42F40C72600C9065C /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = BF93F4B32F40C72600C9065C /* FirebaseAuth */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
-		BD6082EF2F3F796100B0771D /* MusclePath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusclePath.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF0D54052F409B86003AE5DE /* Login_sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Login_sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		BD6082F12F3F796100B0771D /* MusclePath */ = {
+		BF0D54072F409B86003AE5DE /* Login_sample */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = MusclePath;
+			path = Login_sample;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		BD6082EC2F3F796100B0771D /* Frameworks */ = {
+		BF0D54022F409B86003AE5DE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF93F4B42F40C72600C9065C /* FirebaseAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		BD6082E62F3F796100B0771D = {
+		BF0D53FC2F409B86003AE5DE = {
 			isa = PBXGroup;
 			children = (
-				BD6082F12F3F796100B0771D /* MusclePath */,
-				BD6082F02F3F796100B0771D /* Products */,
+				BF0D54072F409B86003AE5DE /* Login_sample */,
+				BF0D54062F409B86003AE5DE /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		BD6082F02F3F796100B0771D /* Products */ = {
+		BF0D54062F409B86003AE5DE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BD6082EF2F3F796100B0771D /* MusclePath.app */,
+				BF0D54052F409B86003AE5DE /* Login_sample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,64 +53,68 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BD6082EE2F3F796100B0771D /* MusclePath */ = {
+		BF0D54042F409B86003AE5DE /* Login_sample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BD6082FA2F3F796300B0771D /* Build configuration list for PBXNativeTarget "MusclePath" */;
+			buildConfigurationList = BF0D54122F409B86003AE5DE /* Build configuration list for PBXNativeTarget "Login_sample" */;
 			buildPhases = (
-				BD6082EB2F3F796100B0771D /* Sources */,
-				BD6082EC2F3F796100B0771D /* Frameworks */,
-				BD6082ED2F3F796100B0771D /* Resources */,
+				BF0D54012F409B86003AE5DE /* Sources */,
+				BF0D54022F409B86003AE5DE /* Frameworks */,
+				BF0D54032F409B86003AE5DE /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				BD6082F12F3F796100B0771D /* MusclePath */,
+				BF0D54072F409B86003AE5DE /* Login_sample */,
 			);
-			name = MusclePath;
+			name = Login_sample;
 			packageProductDependencies = (
+				BF93F4B32F40C72600C9065C /* FirebaseAuth */,
 			);
-			productName = MusclePath;
-			productReference = BD6082EF2F3F796100B0771D /* MusclePath.app */;
+			productName = Login_sample;
+			productReference = BF0D54052F409B86003AE5DE /* Login_sample.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		BD6082E72F3F796100B0771D /* Project object */ = {
+		BF0D53FD2F409B86003AE5DE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 2620;
 				LastUpgradeCheck = 2620;
 				TargetAttributes = {
-					BD6082EE2F3F796100B0771D = {
+					BF0D54042F409B86003AE5DE = {
 						CreatedOnToolsVersion = 26.2;
 					};
 				};
 			};
-			buildConfigurationList = BD6082EA2F3F796100B0771D /* Build configuration list for PBXProject "MusclePath" */;
+			buildConfigurationList = BF0D54002F409B86003AE5DE /* Build configuration list for PBXProject "Login_sample" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = BD6082E62F3F796100B0771D;
+			mainGroup = BF0D53FC2F409B86003AE5DE;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				BF93F4B22F40C72600C9065C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			preferredProjectObjectVersion = 77;
-			productRefGroup = BD6082F02F3F796100B0771D /* Products */;
+			productRefGroup = BF0D54062F409B86003AE5DE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BD6082EE2F3F796100B0771D /* MusclePath */,
+				BF0D54042F409B86003AE5DE /* Login_sample */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		BD6082ED2F3F796100B0771D /* Resources */ = {
+		BF0D54032F409B86003AE5DE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -115,7 +124,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		BD6082EB2F3F796100B0771D /* Sources */ = {
+		BF0D54012F409B86003AE5DE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -125,7 +134,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		BD6082F82F3F796300B0771D /* Debug */ = {
+		BF0D54102F409B86003AE5DE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -160,7 +169,6 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = DNCKHGRTNS;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -189,7 +197,7 @@
 			};
 			name = Debug;
 		};
-		BD6082F92F3F796300B0771D /* Release */ = {
+		BF0D54112F409B86003AE5DE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -224,7 +232,6 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = DNCKHGRTNS;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -246,14 +253,14 @@
 			};
 			name = Release;
 		};
-		BD6082FB2F3F796300B0771D /* Debug */ = {
+		BF0D54132F409B86003AE5DE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = DNCKHGRTNS;
+				DEVELOPMENT_TEAM = ZDNJ9FNCJX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -266,7 +273,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Nutmeg.MusclePath;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ryo.Login-sample";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -278,14 +285,14 @@
 			};
 			name = Debug;
 		};
-		BD6082FC2F3F796300B0771D /* Release */ = {
+		BF0D54142F409B86003AE5DE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = DNCKHGRTNS;
+				DEVELOPMENT_TEAM = ZDNJ9FNCJX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -298,7 +305,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Nutmeg.MusclePath;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ryo.Login-sample";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -313,25 +320,44 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BD6082EA2F3F796100B0771D /* Build configuration list for PBXProject "MusclePath" */ = {
+		BF0D54002F409B86003AE5DE /* Build configuration list for PBXProject "Login_sample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BD6082F82F3F796300B0771D /* Debug */,
-				BD6082F92F3F796300B0771D /* Release */,
+				BF0D54102F409B86003AE5DE /* Debug */,
+				BF0D54112F409B86003AE5DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BD6082FA2F3F796300B0771D /* Build configuration list for PBXNativeTarget "MusclePath" */ = {
+		BF0D54122F409B86003AE5DE /* Build configuration list for PBXNativeTarget "Login_sample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BD6082FB2F3F796300B0771D /* Debug */,
-				BD6082FC2F3F796300B0771D /* Release */,
+				BF0D54132F409B86003AE5DE /* Debug */,
+				BF0D54142F409B86003AE5DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BF93F4B22F40C72600C9065C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.9.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BF93F4B32F40C72600C9065C /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BF93F4B22F40C72600C9065C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = BD6082E72F3F796100B0771D /* Project object */;
+	rootObject = BF0D53FD2F409B86003AE5DE /* Project object */;
 }
