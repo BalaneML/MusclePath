@@ -28,3 +28,6 @@ Carthage/Build/
 
 # --- CocoaPods ---
 Pods/
+
+#firebase
+GoogleService-Info.plist
